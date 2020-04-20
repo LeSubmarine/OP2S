@@ -31,5 +31,6 @@ Booking_No int NOT NULL PRIMARY KEY,
 Hotel_No int NOT NULL FOREIGN KEY REFERENCES Hotel(Hotel_No),
 Guest_No int NOT NULL FOREIGN KEY REFERENCES Guest(Guest_No),
 Room_No int NOT NULL,
-Date_From DateTime NOT NULL);
+Date_From DateTime NOT NULL,
+Date_To DateTime NOT NULL);
 
