@@ -1,6 +1,6 @@
 ﻿CREATE TABLE Facility(
 Facility_No int NOT NULL PRIMARY KEY,
-Types varchar(5) NOT NULL);
+Types varchar(50) NOT NULL);
 
 CREATE TABLE Hotel(
 Hotel_No int NOT NULL PRIMARY KEY,
@@ -20,9 +20,10 @@ Location varchar(50) NOT NULL
 );
 
 CREATE TABLE Room(
-Room_No int NOT NULL PRIMARY KEY,
+Room_Id int NOT NULL PRIMARY KEY,
 Hotel_No int NOT NULL FOREIGN KEY REFERENCES Hotel(Hotel_No),
 Types varchar(1) NOT NULL,
+Room_No int NOT NULL,
 Price int NOT NULL);
 
 CREATE TABLE Booking(
