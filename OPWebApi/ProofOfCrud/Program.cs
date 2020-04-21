@@ -13,7 +13,21 @@ namespace ProofOfCrud
             #region Create
 
             #endregion
-            k
+
+
+            #region Read
+
+            #endregion
+
+
+            #region Update
+
+            #endregion
+
+
+            #region Delete
+
+            #endregion
         }
     }
 }
