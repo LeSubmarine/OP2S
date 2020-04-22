@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProofOfCrud", "ProofOfCrud\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelModels", "HotelModels\HotelModels.csproj", "{6117BA72-F425-40E8-ADE6-C497D240C10A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelDBAccess", "HotelDBAccess\HotelDBAccess.csproj", "{C9391233-01BB-4D5E-9605-8A3A4DA0D827}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6117BA72-F425-40E8-ADE6-C497D240C10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6117BA72-F425-40E8-ADE6-C497D240C10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6117BA72-F425-40E8-ADE6-C497D240C10A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9391233-01BB-4D5E-9605-8A3A4DA0D827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9391233-01BB-4D5E-9605-8A3A4DA0D827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9391233-01BB-4D5E-9605-8A3A4DA0D827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9391233-01BB-4D5E-9605-8A3A4DA0D827}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

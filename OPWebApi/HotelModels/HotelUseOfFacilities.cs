@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HotelModels
 {
-    class HotelUseOfFacilities
+    public class HotelUseOfFacilities
     {
         public int Hotel_Facility_No { get; set; }
         public int Hotel_No { get; set; }
