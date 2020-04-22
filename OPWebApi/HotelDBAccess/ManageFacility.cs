@@ -118,7 +118,7 @@ namespace HotelDBAccess
 
         public bool UpdateFacility(Facility facility, int facilityNr)
         {
-            int rowsAffected = ExecuteNonQueryFacility($"UPDATE Facility SET types='{facility.Types}', WHERE Facility_No={facilityNr}");
+            int rowsAffected = ExecuteNonQueryFacility($"UPDATE Facility SET types='{facility.Types}' WHERE Facility_No={facilityNr}");
             return (rowsAffected == 1);
         }
     }

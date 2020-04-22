@@ -38,7 +38,7 @@ namespace OPWebApi.Controllers
         // DELETE: api/Facility/5
         public void Delete(int id)
         {
-            new ManageFacility().DeleteFacility(id);
+            new ManageFacility().DeleteFacility(id); 
         }
     }
 }

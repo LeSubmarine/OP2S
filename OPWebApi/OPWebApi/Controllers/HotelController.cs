@@ -18,24 +18,27 @@ namespace OPWebApi.Controllers
         }
 
         // GET: api/Hotel/5
-        public string Get(int id)
+        public Hotel Get(int id)
         {
-            return "value";
+            return (new ManageHotel()).GetHotelFromId(id);
         }
 
         // POST: api/Hotel
-        public void Post([FromBody]string value)
+        public void Post([FromBody]Hotel value)
         {
+            new ManageHotel().CreateHotel(value);
         }
 
         // PUT: api/Hotel/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, [FromBody]Hotel value)
         {
+            new ManageHotel().UpdateHotel(value, id);
         }
 
         // DELETE: api/Hotel/5
         public void Delete(int id)
         {
+            new ManageHotel().DeleteHotel(id);
         }
     }
 }

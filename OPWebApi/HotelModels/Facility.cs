@@ -10,5 +10,10 @@ namespace HotelModels
     {
         public int Facility_No { get; set; }
         public string Types { get; set; }
+
+        public override string ToString()
+        {
+            return $"{nameof(Facility_No)}: {Facility_No}, {nameof(Types)}: {Types}";
+        }
     }
 }
